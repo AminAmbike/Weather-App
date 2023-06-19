@@ -13,5 +13,6 @@ Web app which uses API's to allow the user to find current weather conditions fo
 - OpenWeatherMap current Weather Data API -> https://openweathermap.org/current
 
 # Screenshots
-![Screenshot (48)](https://user-images.githubusercontent.com/113309178/234785396-f743dbf8-cb9f-4744-958a-87822a8a5f8a.png)
-![Screenshot (49)](https://user-images.githubusercontent.com/113309178/234785422-ed2a32cf-2c22-4165-9190-8cd74418f50f.png)
+![image](https://github.com/AminAmbike/Weather-App/assets/113309178/9d6e51a3-42cd-461d-bddd-b9417b0520f3)
+![image](https://github.com/AminAmbike/Weather-App/assets/113309178/0e406229-fff0-41b9-b2a0-cd1878175784)
+
