@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/b3ee3494e9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="card">
+            <form action="/" method="post" class="search">
+                <input placeholder="City Name" class="search-bar" id = "cityInput" type="text" name="cityName">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="weather">
+                <h2 class="city"><%=cityname%></h2>
+                <h1 class="temp"><%=temp%>&deg;C</h1>
+                <img src=<%=imageURL%> alt="" class="icon"/></div>
+                <div class="description"><%=weatherDescription%></div>
+                <div class="humidity">Humidity: <%=humidity%>%</div>
+                <div class="wind">Wind: <%=wind%> km/h</div>
+                <div class="feelslike">Feels Like: <%=feelslike%>&deg;C.</div>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
